@@ -14,7 +14,6 @@ public class Assignment {
         linkedList.add(6);
         linkedList.add(2);
         linkedList.add(4);
-        System.out.println("Linked List : " + linkedList);
         Stack<Integer> stack=new Stack<>();
         for(i=4;i>=0;i--)
 
@@ -23,8 +22,6 @@ public class Assignment {
             stack.push(linkedList.get(i));
     
         }
-    
-           System.out.println("Reverse order:"+ stack);
 
        Queue<Integer> queue = new LinkedList<>();
 
@@ -33,8 +30,6 @@ public class Assignment {
                 queue.add(a[i]);
             }
         }
-
-        System.out.println("Even-indexed elements in the Queue: " + queue);
     
     Map<Integer, Integer> map = new HashMap<>();
     for(i=0;i<linkedList.size();i++){
@@ -51,7 +46,7 @@ public class Assignment {
 
     System.out.println("Stack : " + stack);
 
-    System.out.println("Queue : " + queue);
+    System.out.println("Even indexed elements in the Queue : " + queue);
 
 }
 }
